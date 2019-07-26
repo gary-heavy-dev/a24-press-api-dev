@@ -31,6 +31,12 @@ export default {
       type: 'datetime'
     },
     {
+      name: 'previewDate',
+      title: 'Preview Date (Optional)',
+      description: 'This date will override the viasual representation of the date in the frontend',
+      type: 'string'
+    },
+    {
       name: 'poster',
       title: 'Poster Image',
       type: 'image',

@@ -6,16 +6,23 @@ export default {
       name: 'fileTitle',
       title: 'File Title',
       type: 'string'
-    }, {
-      name: 'fileUrl',
-      title: 'File URL',
-      type: 'url'
     },
     {
       name: 'file',
       title: 'File',
       type: 'file',
       validation: Rule => Rule.required()
+    }, {
+      name: 'vimeoId',
+      title: 'Vimeo ID',
+      type: 'string'
+    }, {
+      name: 'vimeoImage',
+      title: 'Vimeo Image',
+      type: 'image',
+      options: {
+        hotspot: true
+      }
     }
   ]
 }
