@@ -12,11 +12,6 @@
       "api": {
         "dataset": "staging"
       }
-    },
-    "staging": {
-      "api": {
-        "dataset": "staging"
-      }
     }
   },
   "plugins": [
