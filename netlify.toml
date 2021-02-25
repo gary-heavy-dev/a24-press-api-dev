@@ -1,3 +1,4 @@
 [context.staging]
-  SANITY_STUDIO_API_DATASET= "staging" 
+  environment = { SANITY_STUDIO_API_DATASET= "staging" }
+  command = "echo 'it me...staging'"
   
