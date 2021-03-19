@@ -31,10 +31,11 @@ export default {
       type: 'datetime'
     },
     {
-      name: 'previewDate',
+      name: 'previewDates',
       title: 'Preview Date (Optional)',
       description: 'This date will override the viasual representation of the date in the frontend',
-      type: 'string'
+      type: 'array',
+      of: [{ type: 'string' }]
     },
     {
       name: 'poster',
