@@ -7,6 +7,12 @@ export default {
       title: 'File Title',
       type: 'string'
     },
+		{
+      name: 'displayTitle',
+      title: 'File Display Title',
+			description: 'This will be the name of the file as displayed on the front end.  If left blank, the title will default to the file title (above).',
+      type: 'string'
+    },
     {
       title: 'Dropbox/WeTransfer Link (Optional)',
       description: 'This link will override the required file upload field below',
