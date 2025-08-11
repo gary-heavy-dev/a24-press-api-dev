@@ -8,7 +8,7 @@ import blockContent from './blockContent'
 import crewMember from './crewMember'
 import castMember from './castMember'
 import movie from './movie'
-import book from './book'
+import product from './product'
 import person from './person'
 import screening from './screening'
 import plotSummary from './plotSummary'
@@ -26,7 +26,7 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     movie,
-    book,
+    product,
     // person,
     // screening,
     // When added to this list, object types can be used as
