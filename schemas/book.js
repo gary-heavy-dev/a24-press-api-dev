@@ -1,8 +1,10 @@
-import icon from 'react-icons/lib/md/local-movies'
+// import icon from 'react-icons/lib/md/local-movies'
+// import icon from "react-icons/lib/md/local-library";
+import icon from "react-icons/lib/md/local-library";
 
 export default {
-  name: 'movie',
-  title: 'Films',
+  name: 'book',
+  title: 'Books',
   type: 'document',
   icon,
   fields: [
@@ -39,7 +41,7 @@ export default {
     },
     {
       name: 'poster',
-      title: 'Poster Image',
+      title: 'Book Image',
       type: 'image',
       options: {
         hotspot: true
