@@ -4,8 +4,8 @@
     "name": "a24-press"
   },
   "api": {
-    "projectId": "xq1bjtf4",
-    "dataset": "production"
+    "projectId": "mmd5bl9c",
+    "dataset": "staging"
   },
   "env": {
     "development": {
