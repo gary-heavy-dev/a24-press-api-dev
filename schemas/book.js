@@ -1,12 +1,11 @@
-// import icon from 'react-icons/lib/md/local-movies'
-// import icon from "react-icons/lib/md/local-library";
-import icon from "react-icons/lib/md/local-library";
+import {defineType} from 'sanity'
+import {MdLocalLibrary} from 'react-icons/md'
 
-export default {
+export default defineType({
   name: 'book',
   title: 'Books',
   type: 'document',
-  icon,
+  icon: MdLocalLibrary,
   fields: [
     {
       name: 'title',
@@ -101,4 +100,4 @@ export default {
       }
     }
   }
-}
+})

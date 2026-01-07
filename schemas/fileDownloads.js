@@ -1,4 +1,6 @@
-export default {
+import {defineType} from 'sanity'
+
+export default defineType({
   title: 'File Downloads',
   name: 'fileDownloads',
   type: 'object',
@@ -37,4 +39,4 @@ export default {
       }
     }
   ]
-}
+})

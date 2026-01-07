@@ -1,4 +1,6 @@
-export default {
+import {defineType} from 'sanity'
+
+export default defineType({
   name: 'castMember',
   title: 'Cast Member',
   type: 'object',
@@ -26,4 +28,4 @@ export default {
       media: 'person.image'
     }
   }
-}
+})
