@@ -9,8 +9,8 @@ export default defineConfig({
   name: 'default',
   title: 'A24 Press',
 
-  projectId: 'mmd5bl9c',
-  dataset: 'staging',
+  projectId: 'xq1bjtf4',
+  dataset: 'production',
 
   plugins: [
     structureTool(),
